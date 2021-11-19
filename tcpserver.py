@@ -63,7 +63,7 @@ while True:
                         file_ = f.readlines()
                 except IOError:
                     pass 
-                response = 'HTTP/Tupi 404 Not Found\r\n'
+                response = 'HTTP/Tupi 200 OK\r\n'
                 response += 'Date: {}\r\n'.format(now_s)
                 response += 'Server: DCI-DEPARTAMENTO_DE_CIENCIA_DA_INFORMACAO\r\n'
                 response += 'Content-Length: {}\r\n'.format(size_err)
